@@ -8,7 +8,7 @@ export const About = () => {
   return (
     <section className="about section" id="about">
         <h2 className="section__title">Sobre Mim</h2>
-        <span className="section__subtitle">Minha Introdução</span>
+        <span className="section__subtitle">Introdução</span>
 
         <div className="about__container container grid">
             <img src={img_capa} alt="" className="about__img"/>
