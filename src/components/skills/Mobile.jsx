@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Frontend = () => {
+const Mobile = () => {
     return (
         <div className="skills__content">
-            <h3 className="skills__title">Desenvolvimento FrontEnd</h3>
+            <h3 className="skills__title">Desenvolvimento Mobile</h3>
     
             <div className="skills__box">
                 <div className="skills__group">
@@ -11,7 +11,7 @@ const Frontend = () => {
                         <i class='bx bx-badge-check'></i>
                         
                         <div>
-                            <h3 className="skills__name">HTML</h3>
+                            <h3 className="skills__name">React Native</h3>
                             <span className="skills__level">Avançado</span>
                         </div>
                     </div>
@@ -20,8 +20,8 @@ const Frontend = () => {
                         <i class='bx bx-badge-check'></i>
     
                         <div>
-                            <h3 className="skills__name">CSS</h3>
-                            <span className="skills__level">Avançado</span>
+                            <h3 className="skills__name">Swift</h3>
+                            <span className="skills__level">Básico</span>
                         </div>
                     </div>
     
@@ -29,8 +29,8 @@ const Frontend = () => {
                         <i class='bx bx-badge-check'></i>
     
                         <div>
-                            <h3 className="skills__name">JavaScrpit</h3>
-                            <span className="skills__level">Avançado</span>
+                            <h3 className="skills__name">Kotlin</h3>
+                            <span className="skills__level">Básico</span>
                         </div>
                     </div>
 
@@ -38,8 +38,8 @@ const Frontend = () => {
                         <i class='bx bx-badge-check'></i>
     
                         <div>
-                            <h3 className="skills__name">Figma</h3>
-                            <span className="skills__level">Avançado</span>
+                            <h3 className="skills__name">Flutter</h3>
+                            <span className="skills__level">Intermediário</span>
                         </div>
                     </div>
     
@@ -50,8 +50,8 @@ const Frontend = () => {
                         <i class='bx bx-badge-check'></i>
     
                         <div>
-                            <h3 className="skills__name">Git</h3>
-                            <span className="skills__level">Avançado</span>
+                            <h3 className="skills__name">Firebase</h3>
+                            <span className="skills__level">Intermediário</span>
                         </div>
                     </div>
 
@@ -59,7 +59,7 @@ const Frontend = () => {
                         <i class='bx bx-badge-check'></i>
     
                         <div>
-                            <h3 className="skills__name">GitHub</h3>
+                            <h3 className="skills__name">Expo</h3>
                             <span className="skills__level">Avançado</span>
                         </div>
                     </div>
@@ -68,8 +68,8 @@ const Frontend = () => {
                         <i class='bx bx-badge-check'></i>
     
                         <div>
-                            <h3 className="skills__name">BootStrap</h3>
-                            <span className="skills__level">Intermediário</span>
+                            <h3 className="skills__name">TypeScript</h3>
+                            <span className="skills__level">Avançado</span>
                         </div>
                     </div>
     
@@ -77,7 +77,7 @@ const Frontend = () => {
                         <i class='bx bx-badge-check'></i>
     
                         <div>
-                            <h3 className="skills__name">React</h3>
+                            <h3 className="skills__name">Dart</h3>
                             <span className="skills__level">Intermediário</span>
                         </div>
                     </div>
@@ -86,4 +86,4 @@ const Frontend = () => {
         </div>
       )
 }
-export default Frontend;
+export default Mobile;

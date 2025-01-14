@@ -126,7 +126,7 @@ export const Services = () => {
                         <h3 className="services__modal-title">Apps Mobile</h3>
                         <p className="services__modal-description">
                             Desenvolvo aplicativos mobile modernos e otimizados para Android e IOS. Unindo performance e design sofisticados.  
-                            Utilizo ferramentas como React Native, crio soluções robustas para experiências fluídas em diferentes dispositivos.
+                            Utilizo ferramentas como React Native, crio soluções robustas para experiências fluidas em diferentes dispositivos.
                         </p>
 
                         <ul className="services__modal-services grid">
