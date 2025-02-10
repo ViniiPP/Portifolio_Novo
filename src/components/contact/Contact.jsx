@@ -55,7 +55,7 @@ export const Contact = () => {
                         <h3 className="contact__card-title">Instagram</h3>
                         <span className="contact__card-data">@eu_viniipp</span>
 
-                        {/* <a href="" className="contact__button">Escreva <i className="bx bx-right-arrow-alt contact__button-icon"></i></a> */}
+                        <a href="www.instagram.com/eu_viniipp" className="contact__button">Seguir <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
                 </div>
             </div>
