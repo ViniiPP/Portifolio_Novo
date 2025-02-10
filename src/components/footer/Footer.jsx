@@ -23,25 +23,28 @@ export const Footer = () => {
 
             <div className="footer__social">
                 <a 
-                    href="www.instagram.com/eu_viniipp" 
+                    href="https://www.instagram.com/eu_viniipp" 
                     className="footer__social-link" 
                     target='_blank'
+                    rel="noopener noreferrer"
                     >
                     <i class="uil uil-instagram"></i>
                 </a>
 
                 <a 
-                    href="www.linkedin.com/in/vinicius-pereira-polli17" 
+                    href="https://www.linkedin.com/in/vinicius-pereira-polli17" 
                     className="footer__social-link" 
                     target='_blank'
+                    rel="noopener noreferrer"
                     >
                     <i class="uil uil-linkedin"></i>
                 </a>
 
                 <a 
-                    href="www.github.com/ViniiPP" 
+                    href="https://www.github.com/ViniiPP" 
                     className="footer__social-link" 
                     target='_blank'
+                    rel="noopener noreferrer"
                     >
                     <i class="uil uil-github-alt"></i>
                 </a>
