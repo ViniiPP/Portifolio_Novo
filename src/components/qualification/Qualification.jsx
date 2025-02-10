@@ -9,7 +9,7 @@ export const Qualification = () => {
     }
 
   return (
-    <section className="qualification section">
+    <section className="qualification section" id='qualification'>
         <h2 className="section__title">Qualificações</h2>
         <span className="section__subtitle">Minha jornada pessoal</span>
 
@@ -118,7 +118,7 @@ export const Qualification = () => {
                 >
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Assitente de Loja</h3>
+                            <h3 className="qualification__title">Assistente de Loja</h3>
                             <span className="qualification__subtitle">Bizz Store</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i> 02/2023 - 05/2023

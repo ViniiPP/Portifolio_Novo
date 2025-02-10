@@ -95,6 +95,10 @@
         margin-left: var(--mb-1-5);
         margin-right: var(--mb-1-5);
     }
+    
+    .qualification__sections {
+        grid-template-columns: initial;
+    }
   }
   
   @media screen and (max-width: 576px) {

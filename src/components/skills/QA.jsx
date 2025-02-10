@@ -20,8 +20,8 @@ const QA = () => {
                         <i class='bx bx-badge-check'></i>
     
                         <div>
-                            <h3 className="skills__name">Cypress</h3>
-                            <span className="skills__level">Intermediário</span>
+                            <h3 className="skills__name">JMeter</h3>
+                            <span className="skills__level">Avançado</span>
                         </div>
                     </div>
     
@@ -29,8 +29,8 @@ const QA = () => {
                         <i class='bx bx-badge-check'></i>
     
                         <div>
-                            <h3 className="skills__name">Selenium</h3>
-                            <span className="skills__level">Intermediário</span>
+                            <h3 className="skills__name">K6</h3>
+                            <span className="skills__level">Avançado</span>
                         </div>
                     </div>
 
