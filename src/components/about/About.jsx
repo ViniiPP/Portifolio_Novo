@@ -16,9 +16,12 @@ export const About = () => {
             <div className="about__data">
                 <Info />
 
-                <p className="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, iusto omnis suscipit ex cupiditate 
-                    corrupti accusamus fugit quis quo nam deleniti sed magni illo assumenda minima ratione earum est modi.
+                <p className="about__description">
+                    Meu primeiro contato com a tecnologia foi aos 11 anos de idade, através de um programa educacional da Atitus Educação, onde tive a oportunidade de aprender 
+                    programação em blocos. Esse início despertou minha curiosidade pela área, levando-me a buscar constantemente aprimorar minhas habilidades. Desde então, 
+                    venho me dedicando a adquirir conhecimentos que me preparam para enfrentar desafios no universo da tecnologia.
                 </p>
+
 
                 <a download="" href={CV} className="button button--flex">
                     Download CV

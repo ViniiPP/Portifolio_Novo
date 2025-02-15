@@ -6,6 +6,8 @@ const Mobile = () => {
             <h3 className="skills__title">Desenvolvimento Mobile</h3>
     
             <div className="skills__box">
+                
+                {/* grupo 01 */}
                 <div className="skills__group">
                     <div className="skills__data">
                         <i class='bx bx-badge-check'></i>
@@ -45,6 +47,7 @@ const Mobile = () => {
     
                 </div>
     
+                {/* grupo 02 */}
                 <div className="skills__group">
                     <div className="skills__data">
                         <i class='bx bx-badge-check'></i>
@@ -69,7 +72,7 @@ const Mobile = () => {
     
                         <div>
                             <h3 className="skills__name">TypeScript</h3>
-                            <span className="skills__level">Avançado</span>
+                            <span className="skills__level">Intermediário</span>
                         </div>
                     </div>
     

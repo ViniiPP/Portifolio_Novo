@@ -6,6 +6,8 @@ const Backend = () => {
         <h3 className="skills__title">Desenvolvimento BackEnd</h3>
 
         <div className="skills__box">
+
+            {/* grupo 01 */}
             <div className="skills__group">
                 <div className="skills__data">
                     <i class='bx bx-badge-check'></i>
@@ -44,6 +46,7 @@ const Backend = () => {
                 </div>
             </div>
 
+            {/* grupo 02 */}
             <div className="skills__group">
                 <div className="skills__data">
                     <i class='bx bx-badge-check'></i>

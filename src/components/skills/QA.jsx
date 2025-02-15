@@ -6,6 +6,8 @@ const QA = () => {
             <h3 className="skills__title">Garantia de Qualidade (QA)</h3>
     
             <div className="skills__box">
+
+                {/* grupo 01 */}
                 <div className="skills__group">
                     <div className="skills__data">
                         <i class='bx bx-badge-check'></i>
@@ -42,9 +44,9 @@ const QA = () => {
                             <span className="skills__level">Intermediário</span>
                         </div>
                     </div>
-    
                 </div>
     
+                {/* grupo 02 */}
                 <div className="skills__group">
                     <div className="skills__data">
                         <i class='bx bx-badge-check'></i>

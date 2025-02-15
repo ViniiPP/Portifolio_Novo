@@ -2,6 +2,8 @@ import React from 'react'
 import './footer.css'
 
 export const Footer = () => {
+    const currentYear = new Date().getFullYear();
+
   return (
     <footer className="footer">
         <div className="footer__container container">
@@ -13,7 +15,7 @@ export const Footer = () => {
                 </li>
 
                 <li>
-                    <a href="#portifolio" className="footer__link">Projetos</a>
+                    <a href="#qualification" className="footer__link">Qualificações</a>
                 </li>
 
                 <li>
@@ -50,7 +52,7 @@ export const Footer = () => {
                 </a>
             </div>
 
-            <span className="footer__copy">&#169; Vinícius Pereira Polli. Todos os direitos reservados.</span>
+            <span className="footer__copy">&#169; Vinícius Pereira Polli. Todos os direitos reservados {currentYear}.</span>
         </div>
     </footer>
   )

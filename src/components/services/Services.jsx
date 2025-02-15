@@ -32,7 +32,7 @@ export const Services = () => {
                         <h3 className="services__modal-title">Desenvolvimento de Sites</h3>
                         <p className="services__modal-description">
                             Atuo há mais de 2 anos criando sites personalizados e otimizados, entregando soluções de qualidade 
-                            para pessoas e projetos pessoais.
+                            para pessoas e projetos pessoais
                         </p>
 
                         <ul className="services__modal-services grid">
@@ -79,7 +79,7 @@ export const Services = () => {
                         <h3 className="services__modal-title">UX/UI Designer</h3>
                         <p className="services__modal-description">
                             Desenvolvo interfaces UX/UI sofisticadas e modernas para sites e aplicativos mobile, unindo funcionalidades 
-                            e design's criativos. Utilizo ferramentas como Figma para criar layouts e protótipos bem estruturados para experiências intuitivas.
+                            e design's criativos. Utilizo ferramentas como Figma para criar layouts e protótipos bem estruturados para experiências intuitivas
                         </p>
 
                         <ul className="services__modal-services grid">
@@ -111,7 +111,7 @@ export const Services = () => {
             <div className="services__content">
                 <div>
                     <i className="bx bxs-devices services__icon"></i>
-                    <h3 className="services__title">Apps Mobile</h3>
+                    <h3 className="services__title">Aplicativos Mobile (Android e IOS) </h3>
                 </div>
 
                 <span onClick={() => toggleTab(3)} className="services__button">
@@ -126,7 +126,7 @@ export const Services = () => {
                         <h3 className="services__modal-title">Apps Mobile</h3>
                         <p className="services__modal-description">
                             Desenvolvo aplicativos mobile modernos e otimizados para Android e IOS. Unindo performance e design sofisticados.  
-                            Utilizo ferramentas como React Native, crio soluções robustas para experiências fluidas em diferentes dispositivos.
+                            Utilizo ferramentas como React Native, crio soluções robustas para experiências fluidas em diferentes dispositivos
                         </p>
 
                         <ul className="services__modal-services grid">
