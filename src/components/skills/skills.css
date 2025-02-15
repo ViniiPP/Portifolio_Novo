@@ -48,6 +48,7 @@
 
 .skills__level {
     font-size: var(--tiny-font-size);
+    font-weight: var(--font-medium);
 }
 
 /*=============== BREAKPOINTS ===============*/

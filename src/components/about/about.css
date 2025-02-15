@@ -37,6 +37,7 @@
 
 .about__subtitle {
     font-size: var(--tiny-font-size);
+    font-weight: var(--font-medium);
 }
 
 .about__description {
