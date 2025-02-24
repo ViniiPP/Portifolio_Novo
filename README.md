@@ -90,5 +90,5 @@ Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para d
 
 ---
 <div align="center">
-  Desenvolvido por [Vinícius Pereira](https://github.com/ViniiPP)
+  Desenvolvido por Vinícius Pereira Polli (https://github.com/ViniiPP)
 </div>
