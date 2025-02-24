@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# Portfólio ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React">
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+</div>
 
-## Available Scripts
+## 📋 Pré-requisitos
 
-In the project directory, you can run:
+- Node.js (versão 14.x ou superior)
+- npm (versão 6.x ou superior) ou yarn
+- Git
 
-### `npm start`
+## 🚀 Como Configurar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Clonar o repositório**
+```bash
+git clone https://github.com/ViniiPP/Portifolio_Novo_ReactJS.git
+cd Portifolio_Novo_ReactJS
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Instalar dependências**
+```bash
+npm install
+# ou
+yarn install
+```
 
-### `npm test`
+## 📦 Dependências Principais
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Pacote             | Versão   | Finalidade                |
+|--------------------|----------|---------------------------|
+| react              | ^18.2.0  | Biblioteca principal       |
+| react-dom          | ^18.2.0  | Renderização DOM          |
+| react-scripts      | 5.0.1    | Configuração do CRA        |
+| @testing-library   | 13.4.0   | Testes unitários           |
+| web-vitals         | 2.1.4    | Métricas de performance    |
+| react-hook-form    | ^7.45.4  | Gerenciamento de formulários |
+| axios              | ^1.5.1   | Requisições HTTP           |
 
-### `npm run build`
+## 🔧 Configuração do Formulário
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Instale dependências específicas:
+```bash
+npm install react-hook-form axios
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Configure seu `.env`:
+```env
+REACT_APP_EMAILJS_SERVICE_ID= SEU SERVICE ID DA API
+REACT_APP_EMAILJS_TEMPLATE_ID= SEU TEMPLATE ID DA API
+REACT_APP_EMAILJS_PUBLIC_KEY= SUA PUBLIC KEY DA API
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ▶️ Execução
 
-### `npm run eject`
+**Modo desenvolvimento:**
+```bash
+npm start
+# ou
+yarn start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Build para produção:**
+```bash
+npm run build
+# ou
+yarn build
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Executar testes:**
+```bash
+npm test
+# ou
+yarn test
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🎨 Estrutura de Arquivos
+```
+src/
+├── components/     # Componentes e estruturação do site
+├── .env/           # Chaves da API do formulário
+├── App.js/         # Esqueleto da aplicação
+└── App.css/        # Bases e variáveis de estilo pré setados
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📄 Licença
+Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+<div align="center">
+  Desenvolvido por ![Vinícius Pereira](https://github.com/ViniiPP)
+</div>
